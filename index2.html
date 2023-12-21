@@ -1,0 +1,102 @@
+<!-- <div class="container">
+            <h1 class="text-center-covid">COVID-19 LIVE DATA</h1>
+            <!-- <br><br> -->
+<!-- <table class="world-table">
+                <tr>
+                    <th>WORLD DATA</th>
+                </tr>
+                <tr class="world-table-row">
+                    <th>TOTAL CASES</th>
+                    <th>TOTAL RECOVERD</th>
+                    <th>TOTAL DEATHS</th>
+                </tr>
+                <tr id="worldData">
+
+                </tr>
+            </table>
+            <br>
+            <br>
+            <form id="countryForm">
+                <select name="" id="selectCountry" onchange="countrydData()">
+                    <option value="">choose your contry</option>
+                </select>
+            </form>
+            <table class="world-table">
+                <tr>
+                    <th>COUNTRY DATA</th>
+                </tr>
+                <tr class="world-table-row">
+                    <th>TOTAL CASES</th>
+                    <th>TOTAL RECOVERD</th>
+                    <th>TOTAL DEATHS</th>
+                </tr>
+                <tr id="countrydData">
+            
+                </tr>
+            </table>
+        </div>
+     -->
+
+
+
+
+
+
+<!-- <h1> CORONACASES</h1>
+<div>
+    <canvas id="caseChart" width="400" height="400"></canvas>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+    const caseHtml = document.getElementById('caseChart');
+    const caseChart = new chart(caseHtml , {
+        type:'line',
+        Date:{
+            labels:[1,2,3,4,5],
+            datasets:[{
+                label:'Label1',
+                borderColor: 'rgb(255,99,132)',
+                data:[2, 1, 3, 1, 5]
+            }]
+        }
+
+     });
+</script> -->
+// let worldData = ""
+// let countrydData = ""
+// worldInit()
+// worldCountries()
+// function worldInit(){
+// let url = ""
+// $.get(url,function(worldData){
+// worldData = `
+// <td>${worldData.Global.TotalConfirmed}</td>
+// <td>${worldData.Global.TotalRecovered}</td>
+// <td>${worldData.Global.TotalDeaths}</td>`
+// $("#worldData").html(worldData)
+// })
+// }
+// function worldCountries(){
+// let url = "";
+// $.get(url,function(countrydData){
+// for(let numOfCountry = 0;numOfCountry<=countrydData.length;numOfCountry++) // $("#selectCountry").append(<option
+    value="+countrydData[numOfCountry].country+">"+countrydData[numOfCountry].country+"</option>)
+    // })
+    // }
+    // function countrydDatat(){
+    // let url = "";
+    // $.get(url,function(countrydData){
+    // for(let count = 0;count<=countrydData.countries.length;count++){ // let
+        selected=$("#selectCountry").find('option:selected').text() //
+        if(countrydData.countries[count].country==selected){ // worldData=` // <td>
+        ${countrydData.countries[count].TotalConfirmed}</td>
+        // <td>${countrydData.countries[count].TotalRecovered}</td>
+        // <td>${countrydData.countries[count].TotalDeaths}</td>`;
+        // $("#countrydData").html(countrydData)
+        // break;
+        // }
+        // }
+        // })
+        // }
